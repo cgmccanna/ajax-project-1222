@@ -5,21 +5,31 @@ body {
   background-repeat: no-repeat;
 }
 
+h2 {
+  color: #263238;
+  font-family: Raleway, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+}
+
 .navbar {
   background-color: rgb(61, 54, 56);
-  display: flex;
   height: 50px;
-  align-items: center;
 }
 
 .navitems {
-  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 30%;
   justify-content: space-between;
-  align-items: center;
   color: rgb(207, 146, 89);
   font-family: Raleway, sans-serif;
   padding-left: 20px;
@@ -29,9 +39,36 @@ body {
   cursor: pointer;
 }
 
-.logo {
+.lobsterwhite {
   font-family: Lobster, cursive;
+  font-weight: 400;
   color: white;
+}
+
+.logo {
   font-size: 25px;
   padding-bottom: 5px;
+}
+
+.title {
+  margin: auto;
+  margin-top: 5%;
+  font-size: 110px;
+}
+
+.buttons {
+  width: 50%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.button-box {
+  background-color: rgb(200, 153, 83, 0.63);
+  padding: 8px 50px;
+  border-radius: 8px;
+}
+
+.button-box:hover {
+  cursor: pointer;
 }
