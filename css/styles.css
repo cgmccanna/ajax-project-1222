@@ -10,10 +10,6 @@ h2 {
   font-family: Raleway, sans-serif;
 }
 
-.flex {
-  display: flex;
-}
-
 .center {
   align-items: center;
   text-align: center;
