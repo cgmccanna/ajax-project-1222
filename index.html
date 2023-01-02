@@ -17,7 +17,7 @@
     <div class="column-full navbar row center">
       <ul class="navitems row center">
         <li class="logo lobsterwhite">MyLibrary</li>
-        <li>Genres</li>
+        <li class="genres">Genres</li>
         <li>Random</li>
         <li>My Collection</li>
         <li>Search</li>
@@ -25,11 +25,11 @@
     </div>
   </header>
   <main>
-    <div data-view="home" class="show">
+    <section data-view="home" id="home" class="show">
       <h1 class="column-full title lobsterwhite center">My Library</h1>
       <div class="buttons row">
         <div class="button-box">
-          <h2>Browse By Genre</h2>
+          <h2 class="genres">Browse By Genre</h2>
         </div>
         <div class="button-box">
           <h2>Surprise Me</h2>
@@ -38,7 +38,10 @@
           <h2>My Collection</h2>
         </div>
       </div>
-    </div>
+    </section>
+    <section data-view="genres" id="genres" class="hidden">
+      <h2 class="lobsterwhite title center column-full">What Genre?</h2>
+    </section>
   </main>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
