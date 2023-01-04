@@ -1,8 +1,11 @@
 var $links = document.querySelectorAll('section');
 
 document.addEventListener('click', function (event) {
-  data.view = event.target.className;
-  switchView();
+  var section = event.target.className;
+  if (section === 'genres' || section === 'search' || section === 'collection') {
+    data.view = section;
+    switchView();
+  }
 });
 
 function switchView() {

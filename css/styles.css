@@ -10,9 +10,29 @@ h2 {
   font-family: Raleway, sans-serif;
 }
 
+h3 {
+  font-size: 40px;
+  padding-right: 15px;
+}
+
+select {
+  width: 30%;
+  height: 35px;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  color: rgb(97, 97, 97);
+}
+
 .center {
+  margin: auto;
   align-items: center;
   text-align: center;
+}
+
+.justify {
+  justify-content: center;
 }
 
 .navbar {
