@@ -85,6 +85,45 @@ select {
   border-radius: 8px;
 }
 
-.button-box:hover {
+.book-wrapper {
+  background-color: rgb(255, 255, 255, 0.5);
+  height: 150px;
+  width: 600px;
+  border-radius: 8px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.evenly {
+  justify-content: space-evenly;
+}
+
+.plus-icon {
+  color: rgb(161, 113, 67);
+  font-size: 60px;
+  padding-right: 35px;
+}
+
+.info {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.book-title {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.button-box:hover,
+.plus-icon:hover {
   cursor: pointer;
 }
