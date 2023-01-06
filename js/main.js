@@ -1,4 +1,5 @@
 var $links = document.querySelectorAll('section');
+var $genreList = document.querySelector('.genre-list');
 
 document.addEventListener('click', function (event) {
   var section = event.target.className;
@@ -17,3 +18,6 @@ function switchView() {
     }
   }
 }
+
+$genreList.addEventListener('change', function (event) {
+});
