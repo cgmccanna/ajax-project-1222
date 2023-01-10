@@ -3,6 +3,12 @@ body {
   background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul {
+  flex-direction: row;
+  padding-inline-start: 0;
 }
 
 h2 {
